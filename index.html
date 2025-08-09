@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="img/jpg" href="Imagens/logo.jpg" />
+  </head>
+
+  <!-- Criando o cabeçalho do site  -->
+
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          src="Imagens/logo 2.0.png"
+          alt="Logo do site"
+          class="logo"
+        />
+      </a>
+      <ul>
+        <h1 class="sobre">
+          <a href="sobre-nos.html"><strong>Sobre Nós</strong></a>
+        </h1>
+        <h1 class='fundadores'>
+          <a href="fundadores.html"><strong>Fundadores</strong></a>
+        </h1>
+      </ul>
+    </header>
+
+    <!-- Imagem de plano de fundo (Av. Amaral peixoto) -->
+
+    <img
+      class="peixoto" src="Imagens/peixoto.webp">
+
+    <!-- Criando os paineis -->
+
+    <div class="painel">
+      <h1>GeoAlerta</h1>
+      <p>
+        A GeoAlerta leva para si que todos deveriam poder andar nas ruas com total segurança sem se preocupar com perigos, com essa ideia em mente, desenvolveram um aplicativo para alertas seus usuarios de perigos em localidades próximas para evitarem se êxpor ao perigo.
+      </p>
+      <p>
+        Disponível em todo o Brasil para usuários Android e IOS, pelas plataformas PlayStore e AppStore. Experimente já e dê seu feedback!
+      </p>
+    </div>
+
+    <!-- Estou pensando em colocar um ondas de divisoria nessa parte
+      em um texto grande unico. Isso deixaria o site mais profissional, mas não sei como fazer ainda. Provavelmente teria que usar um framework ou outra linguagem. -->
+
+    <!-- Exemplo: -->
+    <!-- https://img.freepik.com/vetores-premium/vetor-de-papel-de-parede-de-fundo-de-onda-de-agua-azul_806019-2.jpg -->
+
+    <!-- Criando os 3 paineis da parte inicial do site (parte provisória) -->
+
+    <div class="quadro_1">
+      <img src="Imagens/favicon1.png" />
+      <p>
+        A GeoAlerta é um aplicativo mobile totalmente gratuito, pensado para oferecer mais segurança sem nenhum custo ao usuário. Seu principal diferencial é permitir o acesso a alertas sobre locais perigosos sem exigir pagamento ou assinaturas. Mesmo com funcionalidades avançadas, como notificações em tempo real e uso de geolocalização, a GeoAlerta mantém seu compromisso com a gratuidade, permitindo que qualquer pessoa possa se beneficiar da ferramenta. A GeoAlerta acredita que todos devem ter acesso a segurança sem nenhum custo, garantindo que nenhum valor será cobrado.
+      </p>
+    </div>
+    <div class="quadro_2">
+      <img src="Imagens/favicon2.png" />
+      <p>
+        A GeoAlerta foi desenvolvido com foco na segurança em dois níveis: nas ruas e na proteção dos dados do usuário. Utilizando geolocalização e informações atualizadas, o aplicativo envia alertas sobre áreas de risco, ajudando o usuário a evitar locais perigosos e tomar decisões mais seguras em seus deslocamentos. 
+      </p>
+      <p>
+        Além disso, a GeoAlerta prioriza a privacidade, garantindo que os dados pessoais e a localização dos usuários sejam tratados com segurança e não sejam compartilhados com terceiros. Assim, oferece uma experiência confiável e protegida, unindo tecnologia e   responsabilidade para cuidar do que mais importa.
+      </p>
+    </div>
+    <div class="quadro_3">
+      <img src="Imagens/favicon3.png" />
+      <p>
+        A GeoAlerta está disponível gratuitamente para download em todo o Brasil, tanto para dispositivos Android quanto iOS. Isso significa que usuários de qualquer região do país podem acessar a ferramenta e receber alertas de segurança onde estiverem. Com compatibilidade ampla entre os principais sistemas operacionais móveis, o aplicativo garante que todos possam se beneficiar de suas funcionalidades, independentemente do tipo de smartphone que utilizem. A cobertura nacional reforça o compromisso do GeoAlerta em promover segurança acessível e eficiente para todos os brasileiros.
+      </p>
+    </div>
+    <div class="fundo_escuro">
+      <div class="dentro_fundo">
+        <h1>Qual o nosso objetivo?</h1>
+        <p>
+          A GeoAlerta tem como objetivo promover mais segurança para os brasileiros em sua rotina diária, utilizando a tecnologia como aliada. Por meio de seu aplicativo mobile e de iniciativas sociais, a empresa busca alertar os usuários sobre áreas de risco, permitindo decisões mais conscientes e seguras. Em um cotidiano cada vez mais acelerado, onde muitos deixam de perceber os perigos ao redor, a GeoAlerta se compromete com a construção de um futuro mais seguro, atuando de forma preventiva e acessível.
+        </p>
+        <p>
+          Com o avanço do projeto, a GeoAlerta busca ampliar seu impacto também fora do meio digital. A  empresa desenvolve iniciativas sociais presenciais, como campanhas educativas, oficinas em comunidades e parcerias com organizações locais, todas com o mesmo objetivo de promover segurança e prevenção. Ao unir tecnologia e ação comunitária, a GeoAlerta reforça seu compromisso com a construção de um ambiente mais seguro e acessível para todos.
+        </p>
+      </div>
+      <img src='Imagens/fotoobjetivo.png' class='objetivo'>
+    </div>
+
+    <!-- Painel de suporte -->
+
+    <div class="painel_sup">
+      <h1>Dê o seu feedback!</h1>
+      <form action="https://formsubmit.co/feedbackgeoalerta@freelify.com.br" target="_blank" method="POST">
+            
+            <label id="textnome" for="name">Nome:</label>
+            <input id="nome" type="text" name="name" required>
+            <label id="textemail" for="name">Email:</label>
+            <input id="email" type="email" name="email" required>
+            <label id="textmensagem" for="name">Mensagem:</label>
+            <textarea id="mensagem" name="message" placeholder="Escreva sua mensagem aqui" required></textarea>
+            <button id="enviar" type="submit">Enviar</button>
+          
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_autoresponse" value="
+            Olá,
+
+            Agradecemos por entrar em contato com a GeoAlerta!
+
+            Recebemos seu feedback e ele já está sendo analisado por nossa equipe. Suas opiniões e sugestões são muito importantes para nós e nos ajudam a aprimorar continuamente nossos serviços.
+
+            Em breve, retornaremos com um posicionamento ou resposta, caso necessário.
+
+            Agradecemos sua contribuição e estamos à disposição para qualquer outra informação.
+
+            Atenciosamente,
+            Equipe GeoAlerta
+            ">
+        </form>
+    </div>
+
+    <!-- Imagem de suporte -->
+
+    <img class="img_atendimento" src="Imagens/suporte.webp" />
+
+    <!-- Montando o footer do site -->
+
+    <footer>
+      <ul>
+        <a class="texto_suporte" href="suporte.html">Entre em contato com o suporte</a>
+        <a href='https://www.instagram.com/geoalerta_brasil?igsh=MXg4Y3F5amlhcnhqMw=='>
+          <img src='Imagens/instagram.png'>
+        </a>
+        <a href='https://www.instagram.com/geoalerta_brasil?igsh=MXg4Y3F5amlhcnhqMw=='>
+          <p class='insta'>GeoAlerta</p>
+        </a>
+      </ul>
+    </footer>
+  </body>
+</html>

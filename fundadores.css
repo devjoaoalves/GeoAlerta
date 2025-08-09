@@ -1,0 +1,180 @@
+header {
+    text-align: center;
+    background-color: #192e40;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    margin-top: -15.7px;
+  }
+header h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.logo{
+  z-index: 10;
+  position: absolute;
+  width: 70px;
+  left: 0;
+  margin-left: 15px;
+  top: 0;
+  margin-top: 5px;
+}
+.fundadores{
+  margin-top: 18px;
+  float: inline-end;
+  margin-inline-end: 20px;
+}
+.sobre{
+  margin-top: 18px;
+  float: right;
+  margin-right: 20px;
+}
+a{
+  color: inherit; /* Usa a mesma cor do h1 */
+  text-decoration: none; /* Remove o sublinhado */
+}
+a:hover {
+  opacity: 75%;
+}
+body {
+  margin: 0;
+  background-color: white;
+}
+.painel{
+  background-color: #192e40;
+  height: 1100px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  width: 1200px;
+  margin-left: 5.5%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.painel h1{
+  padding: 20px;
+}
+.jp_div{
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+  margin-inline-end: 50px;
+}
+.jp_div img{
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  max-width: 100%;
+}
+.jp_div p{
+  text-align: center;
+  font-size: larger;
+}
+
+
+
+.marlon_div{
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+  margin-inline-end: 50px;
+}
+.marlon_div img{
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  max-width: 100%;
+}
+.marlon_div p{
+  text-align: center;
+  font-size: larger;
+}
+
+
+
+.milena_div{
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;  
+}
+.milena_div img{
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  max-width: 100%;
+}
+.milena_div p{
+  text-align: center;
+  font-size: larger;
+}
+
+
+
+.edvan_div{
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+  max-width: 500px;
+  margin-inline-end: 50px;
+}
+.edvan_div img{
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  max-width: 100%;
+}
+.edvan_div p{
+  text-align: center;
+  font-size: larger;
+}
+
+
+
+.joao_div{
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+  margin-inline-end: 50px;
+}
+.joao_div img{
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  max-width: 100%;
+}
+.joao_div p{
+  text-align: center;
+  font-size: larger;
+}
+
+
+
+.breno_div{
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+}
+.breno_div img{
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  max-width: 100%;
+}
+.breno_div p{
+  text-align: center;
+  font-size: larger;
+}

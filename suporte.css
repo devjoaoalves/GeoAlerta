@@ -1,0 +1,109 @@
+header {
+  text-align: center;
+  background-color: #192e40;
+  height: 70px;
+  width: 100%;
+  top: 0;
+  margin-top: -15.7px;
+}
+header h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.logo{
+  z-index: 10;
+  position: absolute;
+  width: 70px;
+  left: 0;
+  margin-left: 15px;
+  top: 0;
+  margin-top: 5px;
+}
+.fundadores{
+  margin-top: 18px;
+  float: inline-end;
+  margin-inline-end: 20px;
+}
+.sobre{
+  margin-top: 18px;
+  float: right;
+  margin-right: 20px;
+}
+a{
+  color: inherit; /* Usa a mesma cor do h1 */
+  text-decoration: none; /* Remove o sublinhado */
+}
+a:hover {
+  opacity: 75%;
+}
+body {
+  margin: 0;
+  background-color: white;
+}
+.painel{
+  background-color:  #192e40;
+  height: 450px;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 900px;
+  margin-left: 17%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 2.7%;
+}
+.painel h1{
+  padding-top: 12px;
+}
+.painel p{
+  padding: 2px;
+}
+input, textarea{
+    border-radius: 5px;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+}
+#textnome, #textemail, #textmensagem{
+    display: block;
+    padding: 3px;
+    margin: 0 auto;
+}
+#nome, #email{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 650px;
+    height: 25px;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+}
+#mensagem{
+    text-align: center;
+    outline: 0;
+    border: 0;
+    width: 650px;
+    height: 185px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#enviar{
+    background-color: #66b1f2;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    clear: both;
+    cursor: pointer;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: #192e40;
+    margin-left: auto;
+    margin-right: auto;
+}

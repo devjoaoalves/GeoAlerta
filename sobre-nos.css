@@ -1,0 +1,60 @@
+header {
+  text-align: center;
+  background-color: #192e40;
+  height: 70px;
+  width: 100%;
+  top: 0;
+  margin-top: -15.7px;
+}
+header h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.logo{
+  z-index: 10;
+  position: absolute;
+  width: 70px;
+  left: 0;
+  margin-left: 15px;
+  top: 0;
+  margin-top: 5px;
+}
+.fundadores{
+  margin-top: 18px;
+  float: inline-end;
+  margin-inline-end: 20px;
+}
+.sobre{
+  margin-top: 18px;
+  float: right;
+  margin-right: 20px;
+}
+a{
+  color: inherit; /* Usa a mesma cor do h1 */
+  text-decoration: none; /* Remove o sublinhado */
+}
+a:hover {
+  opacity: 75%;
+}
+body {
+  margin: 0;
+  background-color: white;
+}
+.painel{
+  background-color:  #192e40;
+  height: 400px;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 900px;
+  margin-left: 17%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 5%;
+}
+.painel h1{
+  padding: 12px;
+}
+.painel p{
+  padding: 2px;
+}
